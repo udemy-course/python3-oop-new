@@ -4,7 +4,6 @@ s2 = ('Chris', 24)
 print(s1[0], s1[1])
 
 
-
 class Student:
 
     def __init__(self, name, age):
