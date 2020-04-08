@@ -1,7 +1,5 @@
 # Python 3零基础入门
 
-课程地址 https://www.udemy.com/python3-chinese/?couponCode=DOCKER-PROMOTION
-
 * 第一章 课程介绍
 * 第二章 基本数据类型
 * 第三章 列表和元组
