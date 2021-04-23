@@ -54,6 +54,9 @@
 >>> re.search(".", s)
 <re.Match object; span=(0, 1), match='f'>
 >>>
+>>> re.search('\.', s)
+<re.Match object; span=(3, 4), match='.'>
+>>>
 ```
 
 ## (2) `^` Anchors a match at the start of a string
