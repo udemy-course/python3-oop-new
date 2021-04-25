@@ -4,10 +4,19 @@
 
 Splits a string into substrings.
 
+with string split
+
 ```
->>> import re
->>> s = 'foo, bar, baz, qux, quux, corge'
+>>> s = 'foo, bar, baz,qux, quux,     corge'
+>>> [a.strip() for a in s.split(',')]
+['foo', 'bar', 'baz', 'qux', 'quux', 'corge']
 >>>
+```
+
+with re.split()
+
+```
+>>> s = 'foo, bar, baz,qux, quux,     corge'
 >>> re.split(r",\s*", s)
 ['foo', 'bar', 'baz', 'qux', 'quux', 'corge']
 >>>
