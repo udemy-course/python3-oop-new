@@ -1,5 +1,7 @@
 # Python 3零基础入门
 
+Python完整课程购买链接：https://www.udemy.com/course/python3-chinese/?referralCode=47E6E4492ED7893DB0BE
+
 * 第一章 课程介绍
 * 第二章 基本数据类型
 * 第三章 列表和元组
