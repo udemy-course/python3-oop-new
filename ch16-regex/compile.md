@@ -8,6 +8,9 @@ Compiles a regex into a regular expression object.
 <_sre.SRE_Match object; span=(3, 6), match='123'>
 >>>
 >>> re_obj = re.compile(r'\d+')
+>>> >>> type(re_obj)
+<class '_sre.SRE_Pattern'>
+>>>
 >>> re.search(re_obj, 'foo123bar')
 <_sre.SRE_Match object; span=(3, 6), match='123'>
 >>>
