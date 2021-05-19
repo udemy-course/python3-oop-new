@@ -55,16 +55,18 @@ interface_descriptions = re.finditer(
     re.MULTILINE)
 
 for part in interface_descriptions:
-    print(part.group('int_name'), part.group('ip'), part.group('mask'))
+    print(part.groupdict())
+    # print(part.group('int_name'), part.group('ip'), part.group('mask'))
 
-    
-  """
-python .\homework.py
-Vlan8 192.168.3.50 255.255.255.240
-Vlan9 192.168.3.66 255.255.255.240
-Vlan10 192.168.3.82 255.255.255.240
-Vlan25 192.168.3.211 255.255.255.240
-Vlan26 192.168.3.227 255.255.255.240
-Vlan99 192.168.1.2 255.255.255.252
-Vlan100 192.168.192.2 255.255.255.248
+
 """
+PS C:\Users\Peng Xiao\python3-oop-new\ch16-regex> python .\homework.py
+{'int_name': 'Vlan8', 'ip': '192.168.3.50', 'mask': '255.255.255.240'}
+{'int_name': 'Vlan9', 'ip': '192.168.3.66', 'mask': '255.255.255.240'}
+{'int_name': 'Vlan10', 'ip': '192.168.3.82', 'mask': '255.255.255.240'}
+{'int_name': 'Vlan25', 'ip': '192.168.3.211', 'mask': '255.255.255.240'}
+{'int_name': 'Vlan26', 'ip': '192.168.3.227', 'mask': '255.255.255.240'}
+{'int_name': 'Vlan99', 'ip': '192.168.1.2', 'mask': '255.255.255.252'}
+{'int_name': 'Vlan100', 'ip': '192.168.192.2', 'mask': '255.255.255.248'}
+"""
+
