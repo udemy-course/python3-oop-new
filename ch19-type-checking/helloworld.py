@@ -1,17 +1,8 @@
-from dataclasses import dataclass
+def add(a: int, b: int)-> int:
+
+    return a + b
 
 
-class Person1:
-    def __init__(self, name, age, height, email):
-        self.name = name
-        self.age = age
-        self.height = height
-        self.email = email
+add(1, 2)
 
-
-@dataclass
-class Person2:
-    name: str
-    age: int
-    height: float
-    email: str
+add('a', 'b')
