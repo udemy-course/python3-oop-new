@@ -15,4 +15,9 @@ Python完整课程购买链接：https://www.udemy.com/course/python3-chinese/?r
 * 第十一章 异常和处理
 * 第十二章 调试和测试
 * 第十三章 logging模块
-* 第十四章 深入认识类和对象
+* 第十四章 Collection
+* 第十五章 深入认识类和对象
+* 第十六章 正则表达式
+* 第十七章 python程序的打包
+* 第十八章 Python中的指针和对象
+* 第十九章 Python Type Checking
