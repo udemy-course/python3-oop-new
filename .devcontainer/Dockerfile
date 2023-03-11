@@ -8,7 +8,7 @@ ARG USER_GID=$USER_UID
 
 # Install git, process tools, lsb-release (common in install instructions for CLIs) and curl
 RUN apk --no-cache update && apk --no-cache upgrade && \
-    apk add --no-cache gcc musl-dev linux-headers libffi-dev zsh git curl sudo build-base
+    apk add --no-cache gcc musl-dev linux-headers libffi-dev bash zsh git curl sudo build-base
 
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir wheel pre-commit

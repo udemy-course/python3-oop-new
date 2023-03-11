@@ -7,7 +7,7 @@
                 "editor.tabSize": 2,
                 "files.trimTrailingWhitespace": true,
                 "workbench.colorTheme": "Aura Dark",
-                "workbench.iconTheme": "material-icon-theme"
+                "workbench.iconTheme": "eq-material-theme-icons-darker"
             },
             "extensions": [
                 "ms-python.python",
