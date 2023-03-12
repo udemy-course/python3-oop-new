@@ -18,6 +18,5 @@
             ]
         }
     },
-    "remoteUser": "devcontainer",
-    "postCreateCommand": "bash -i -c 'pre-commit install'"
+    "remoteUser": "devcontainer"
 }
